@@ -2,7 +2,9 @@
 
 namespace app\exceptions;
 
-class AppException extends yii\base\Exception
+use yii\base\Exception;
+
+class AppException extends Exception
 {
 
 }
